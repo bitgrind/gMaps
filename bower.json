@@ -1,0 +1,25 @@
+{
+  "name": "Gmaps",
+  "description": "Google Map API buildout",
+  "main": "gmaps",
+  "keywords": [
+    "google",
+    "maps",
+    "api"
+  ],
+  "authors": [
+    "Keith Stedman"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}

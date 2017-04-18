@@ -1,24 +1,29 @@
 {
   "name": "gmaps",
   "version": "1.0.0",
-  "description": "Google Maps API",
+  "description": "",
   "main": "gulpfile.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bower": "^1.8.0",
+    "bower-files": "^3.14.1",
+    "browserify": "^14.3.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "jquery": "^3.2.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bitgrind/gMaps.git"
-  },
-  "keywords": [
-    "Google",
-    "Maps",
-    "API"
-  ],
-  "author": "Keith Stedman",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bitgrind/gMaps/issues"
-  },
-  "homepage": "https://github.com/bitgrind/gMaps#readme"
+  "author": "",
+  "license": "ISC"
 }

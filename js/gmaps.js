@@ -1,14 +1,14 @@
 
 //Constructor
-function gMaps(city) {
+function Gmaps(city) {
   this.city = city;
 }
 
 //Methods
-Gmaps.prototype.gMethod = function(destination){
+Gmaps.prototype.gMethod = function(destination){
   console.log("gmaps js");
-  return destination;
-}
+  //return destination;
+};
 
 //Exports
-exports.gmapsExport = gMaps;
+exports.gmapsExport = Gmaps;

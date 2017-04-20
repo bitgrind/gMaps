@@ -10,15 +10,18 @@
   <body>
     <main class="container">
       <h1>Google Maps API</h1>
-      <div>
-        <label>Enter A Starting Location</label>
-        <input id="start-point">
-      </div>
-      <div>
-        <label>Enter A Destination</label>
-        <input id="end-point">
-      </div>
-      <div><input type="submit" id="get-directions"></div>
+      <form id="get-directions" action="#">
+        <div>
+          <label>Enter A Starting Location</label>
+          <input id="start-point" type="text" required>
+        </div>
+        <div>
+          <label>Enter A Destination</label>
+          <input id="end-point" type="text" required>
+        </div>
+        <input type="submit">
+      </form>
+      <div id="map"></div>
         <div id="gmap-output">
           <h1>Travel Stats</h1>
           <div id="distance"><h3>Distance: <span></span></h3></div>

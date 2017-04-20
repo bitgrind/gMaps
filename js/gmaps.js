@@ -17,7 +17,7 @@ Gmaps.prototype.getDirections = function(startPoint, endPoint, displayDirections
 
 Gmaps.prototype.getMap = function(mapInit){
   $.getScript("https://maps.googleapis.com/maps/api/js?key="+apiKeyMaps)
-      .then(function(){
+  .then(function(){
     mapInit();
   });
 };

@@ -15,5 +15,12 @@ Gmaps.prototype.getDirections = function(startPoint, endPoint, displayDirections
   //return destination;
 };
 
+Gmaps.prototype.getMap = function(mapInit){
+  $.getScript("https://maps.googleapis.com/maps/api/js?key="+apiKeyMaps)
+      .then(function(){
+    mapInit();
+  });
+};
+
 //Exports
 exports.Gmaps = Gmaps;
